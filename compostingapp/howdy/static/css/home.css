@@ -1,0 +1,83 @@
+
+body {
+    background-color: white;
+}
+
+h1 {
+    padding: 10px 0 !important;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1.1;
+}
+
+.nav {
+                list-style:none;
+                margin:0;
+                padding:10px;
+                text-align:center;
+                padding-bottom: 10px;
+            }
+
+            .nav li {
+                display:inline-block;
+            }
+
+            .nav a {
+                display:inline-block;
+                text-decoration:none;
+                color: black ;
+                padding: 0px;
+                font-family: 'Lato', sans-serif;
+                padding-right: 50px;
+                padding-left: 50px
+
+            }
+
+            .nav a:hover {
+                color: Green ;
+            }
+
+            .nav a.active {
+                color: Green
+            }
+
+.mainpic a{
+	opacity: 0.7;
+    margin-top: 10px;
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.wrapper {
+	display: flex;
+  justify-content: center;
+  width: 100%;
+ 	height: 100vh;
+  text-align: center;
+  align-self: center;
+}
+
+.missiontextbox {
+    text-align: center;
+    align-self:center;
+    background-color: White;
+    height: 290px;
+    position: absolute;
+    width: 450px;
+}
+
+h2 {
+	font-family: courier;
+    font-size: 20px;
+    text-align: center;
+    margin: 40px
+}
+
+a {
+  text-align: center;
+}
